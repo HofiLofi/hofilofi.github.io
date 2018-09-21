@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title></title>
+<html>
 
+<head>
+<meta charset="utf-8">
+<title></title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="ble.css">
 
 </head>
-
-<style>
-body {
 	
-	background-image: url('grunge_patterns.jpg');
-	background-attachment: fixed;
-	color: #333;
+<style>
+
+body
+	color: #ccff00;
 }
 .box {
 	border-radius: 3px;
-	background: rgba(101, 101, 101, 0.7); margin: auto; padding: 12px;
+	background: #ccff00; margin: auto; padding: 12px;
 }
 .lightbox {
 	zoom: 1.5;
@@ -25,7 +25,7 @@ body {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(10, 10, 10, 0.8);
+	background: #ccff00;
 	text-align: center;
 	margin: auto;
 	
@@ -42,17 +42,16 @@ div.vertical {
 	width: 100%;
 }
 ::-webkit-input-placeholder {
-   color: #955;
+   color: ##ccff00;
    text-align: center;
 }
 ::-moz-placeholder {  
-   color: #955;
+   color: #F6FF33;
    text-align: center;
 }
 :-ms-input-placeholder {  
-   color: #955;
+   color: #F6FF33;
    text-align: center;
-}
 </style>
 
 <body>
@@ -82,7 +81,7 @@ div.vertical {
 		
 		var hash= pwd;
 		hash= Sha1.hash(pwd);
-		var url= hash + "/index.html";
+		var url= hash + "content.html";
 			
 		$.ajax({
 			url : url,
@@ -115,4 +114,3 @@ div.vertical {
 
 </body>
 </html>
-    
