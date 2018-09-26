@@ -38,10 +38,10 @@ div.vertical {
    text-align: center;
 }
 ::-moz-placeholder {  
-   color: #CCFF00;
+   color: #000;
    text-align: center;
 }
 :-ms-input-placeholder {  
-   color: #CCFF00;
+   color: #000;
    text-align: center;
 }
