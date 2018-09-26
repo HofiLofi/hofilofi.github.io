@@ -1,14 +1,15 @@
 
 body{
-    background-image: url('bakgrunnur.png');
+    background-image: url('https://raw.githubusercontent.com/HofiLofi/hofilofi.github.io/master/bakgrunnur.png'); 
+    background-size: cover;
+    background-color: #FFF;
     background-attachment: fixed;
-	color: #FFF;
-    background-color: #CCFF00;
-    }
+    color: #FFF;
+}
 
 .box {
-	border-radius: 3px;
-	background: #ccff00; margin: auto; padding: 12px;
+	border-radius: 2px;
+	background: #fff; margin: auto; padding: 10px;
 }
 .lightbox {
 	zoom: 1.5;
@@ -33,14 +34,14 @@ div.vertical {
 	width: 100%;
 }
 ::-webkit-input-placeholder {
-   color: ##ccff00;
+   color: #000;
    text-align: center;
 }
 ::-moz-placeholder {  
-   color: #F6FF33;
+   color: #CCFF00;
    text-align: center;
 }
 :-ms-input-placeholder {  
-   color: #F6FF33;
+   color: #CCFF00;
    text-align: center;
 }
